@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Html Component</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Tagify</h1>
+      <div id="item-container">
+        <div id="items"></div>
+        <input
+          type="text"
+          class="col-sm text-box"
+          placeholder="Add Tags"
+          id="inputBox"
+          oninput="searchByKey()"
+        />
+      </div>
+      <ul id="item-list"></ul>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

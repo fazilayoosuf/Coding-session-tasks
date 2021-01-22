@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "lato", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  color: chocolate;
+  font-style: italic;
+}
+
+#item-container {
+  border-style: solid;
+  border-radius: 10px;
+  width: 750px;
+  margin: auto;
+  margin-top: 40px;
+}
+.tag {
+  border-style: groove;
+  border-radius: 10px;
+  width: auto;
+  height: 40px;
+  display: flex;
+  float: left;
+  background-image: linear-gradient(rgb(149, 41, 221), purple);
+}
+li {
+  border-style: groove;
+  border-radius: 10px;
+  width: 700px;
+  height: 40px;
+  margin-left: 160px;
+  margin-top: 5px;
+  display: flex;
+  float: left;
+  padding-left: 10px;
+  background-image: linear-gradient(pink, rgb(218, 158, 79));
+}
+
+li:nth-child(odd) {
+  background-image: linear-gradient(rgb(149, 41, 221), pink);
+}
+
+#flag {
+  width: 40px;
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+p {
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#closeBtn {
+  margin: 14px 5px;
+}
+
+#inputBox {
+  height: 45px;
+  width: 250px;
+  border-style: none;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+#inputBox:focus {
+  outline: none;
+}
